@@ -1,0 +1,29 @@
+.justifycontent{
+    justify-content: center;
+}
+.flex{
+    display: flex;  
+}
+@media screen and (max-width:1400px){
+    .top .bgblack{
+        background-color:#d40303 ;
+        color:rgb(255, 255, 255);
+    }
+}
+
+.bgblack{
+    background-color:#121212 ;
+    color:rgb(255, 255, 255);
+}
+.invert{
+    /* filter: invert(1); */
+    background-color:#2A2A2A;
+}
+
+.alignitem{
+    align-items: center;
+}
+.border{
+    border: 1px solid red;   
+    margin: 5px;
+}
